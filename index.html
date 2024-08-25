@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge Decodificador de Texto - ONE</title>
+</head>
+<body>
+ <main>
+    <section class="teste-tela">
+    <section>
+        <textarea class="text-area" cols="50" rows="100" placeholder="Digite seu texto..." autofocus></textarea>
+            <div class="info">
+                <h6>Atenção! Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            
+            <div class="botoes">
+                <button class="btn-criptografar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-descriptografar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+    </section>
+
+    <section>
+        <textarea class="mensagem" cols="20" rows="12" readonly></textarea>
+        <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+    </section>
+</section>
+</main>
+<script src="script.js"></script>
+    
+</body>
+</html>
